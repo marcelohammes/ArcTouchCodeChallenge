@@ -1,0 +1,1015 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		613D566A0F2DD858D59EF1A0 /* Pods_ArcTouchCodeChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 364C9AA30F5EF21C8A044378 /* Pods_ArcTouchCodeChallengeTests.framework */; };
+		6318F7E620DFBC1B000B6D41 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6318F7E520DFBC1B000B6D41 /* FavoritesView.swift */; };
+		6318F7E820DFBCDB000B6D41 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6318F7E720DFBCDB000B6D41 /* FavoritesViewController.swift */; };
+		6318F7EA20DFBFB7000B6D41 /* FavoriteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6318F7E920DFBFB7000B6D41 /* FavoriteTableViewCell.swift */; };
+		6318F7EC20E0280D000B6D41 /* EmptyDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6318F7EB20E0280D000B6D41 /* EmptyDataView.swift */; };
+		6318F7EE20E02819000B6D41 /* ErrorDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6318F7ED20E02819000B6D41 /* ErrorDataView.swift */; };
+		6319616E20DDEAFF001299A4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6319616D20DDEAFF001299A4 /* Constants.swift */; };
+		6319618520DDF1A8001299A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6338207D20D9E08D00C380A7 /* Assets.xcassets */; };
+		6319618920DDF1AC001299A4 /* localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 637EED6920DB453C009A8AA9 /* localizable.strings */; };
+		6319618A20DDF1B5001299A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6338207F20D9E08D00C380A7 /* LaunchScreen.storyboard */; };
+		63200D5A20DF870400A3E510 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63200D5920DF870400A3E510 /* MovieDetailViewController.swift */; };
+		63200D5C20DF872500A3E510 /* MovieDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63200D5B20DF872500A3E510 /* MovieDetailView.swift */; };
+		6338207720D9E08B00C380A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6338207620D9E08B00C380A7 /* AppDelegate.swift */; };
+		6338207E20D9E08D00C380A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6338207D20D9E08D00C380A7 /* Assets.xcassets */; };
+		6338208120D9E08D00C380A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6338207F20D9E08D00C380A7 /* LaunchScreen.storyboard */; };
+		6338209720D9E08D00C380A7 /* ArcTouchCodeChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6338209620D9E08D00C380A7 /* ArcTouchCodeChallengeUITests.swift */; };
+		63419FB320DEC9690089A759 /* MoviesListSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63419FB220DEC9690089A759 /* MoviesListSectionController.swift */; };
+		63419FB620DECBA80089A759 /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63419FB520DECBA80089A759 /* MovieCollectionViewCell.swift */; };
+		63419FB920DECD050089A759 /* CellConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63419FB820DECD050089A759 /* CellConfiguration.swift */; };
+		63419FBC20DECE230089A759 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63419FBB20DECE230089A759 /* FavoriteButton.swift */; };
+		63419FBE20DEF1B50089A759 /* PaddingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63419FBD20DEF1B50089A759 /* PaddingLabel.swift */; };
+		634584A420DDDE400024A296 /* BaseURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634584A320DDDE400024A296 /* BaseURL.swift */; };
+		637EED5B20DB3FC5009A8AA9 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637EED5A20DB3FC5009A8AA9 /* BaseView.swift */; };
+		637EED5E20DB3FF5009A8AA9 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637EED5D20DB3FF5009A8AA9 /* BaseViewController.swift */; };
+		637EED6120DB41AE009A8AA9 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637EED6020DB41AE009A8AA9 /* TabBarController.swift */; };
+		637EED6420DB4467009A8AA9 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637EED6320DB4467009A8AA9 /* R.generated.swift */; };
+		637EED6720DB453C009A8AA9 /* localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 637EED6920DB453C009A8AA9 /* localizable.strings */; };
+		6383352620DDE5CF006CECB2 /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6383352520DDE5CF006CECB2 /* Genre.swift */; };
+		6383352920DDE676006CECB2 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6383352820DDE676006CECB2 /* APIClient.swift */; };
+		6387918B213C9BA600E0A145 /* NetworkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63879187213C99E500E0A145 /* NetworkingTests.swift */; };
+		638AA6D420DE86A4001165EE /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638AA6D320DE86A4001165EE /* Movie.swift */; };
+		63AAD08320DEAF3F00AB81C4 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AAD08220DEAF3F00AB81C4 /* MoviesViewController.swift */; };
+		63AAD08520DEB03E00AB81C4 /* MoviesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AAD08420DEB03E00AB81C4 /* MoviesView.swift */; };
+		71DF7C9D3F4C89A9987DA458 /* Pods_ArcTouchCodeChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C201FBBB74C1623FF8DBBCA5 /* Pods_ArcTouchCodeChallenge.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6338208820D9E08D00C380A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6338206B20D9E08B00C380A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6338207220D9E08B00C380A7;
+			remoteInfo = Teste_Tembici;
+		};
+		6338209320D9E08D00C380A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6338206B20D9E08B00C380A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6338207220D9E08B00C380A7;
+			remoteInfo = Teste_Tembici;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21E6AB4F66368133555E73BD /* Pods-ArcTouch_Code_ChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcTouch_Code_ChallengeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArcTouch_Code_ChallengeTests/Pods-ArcTouch_Code_ChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		23450A9D72EBA2B78DBED19A /* Pods-ArcTouchCodeChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcTouchCodeChallengeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArcTouchCodeChallengeTests/Pods-ArcTouchCodeChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		364C9AA30F5EF21C8A044378 /* Pods_ArcTouchCodeChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArcTouchCodeChallengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C09B75D6BB2405AE42A55B6 /* Pods-ArcTouchCodeChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcTouchCodeChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArcTouchCodeChallenge/Pods-ArcTouchCodeChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		5069BD0CB032BBDF524F875E /* Pods-ArcTouch_Code_Challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcTouch_Code_Challenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArcTouch_Code_Challenge/Pods-ArcTouch_Code_Challenge.release.xcconfig"; sourceTree = "<group>"; };
+		543BE863E82A7A4378787A6B /* Pods-ArcTouch_Code_ChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcTouch_Code_ChallengeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArcTouch_Code_ChallengeTests/Pods-ArcTouch_Code_ChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		6318F7E520DFBC1B000B6D41 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		6318F7E720DFBCDB000B6D41 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		6318F7E920DFBFB7000B6D41 /* FavoriteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteTableViewCell.swift; sourceTree = "<group>"; };
+		6318F7EB20E0280D000B6D41 /* EmptyDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyDataView.swift; sourceTree = "<group>"; };
+		6318F7ED20E02819000B6D41 /* ErrorDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorDataView.swift; sourceTree = "<group>"; };
+		6319616D20DDEAFF001299A4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		63200D5920DF870400A3E510 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
+		63200D5B20DF872500A3E510 /* MovieDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailView.swift; sourceTree = "<group>"; };
+		6338207320D9E08B00C380A7 /* ArcTouchCodeChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArcTouchCodeChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6338207620D9E08B00C380A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6338207D20D9E08D00C380A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6338208020D9E08D00C380A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6338208220D9E08D00C380A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6338208720D9E08D00C380A7 /* ArcTouchCodeChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArcTouchCodeChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6338209220D9E08D00C380A7 /* ArcTouchCodeChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArcTouchCodeChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6338209620D9E08D00C380A7 /* ArcTouchCodeChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcTouchCodeChallengeUITests.swift; sourceTree = "<group>"; };
+		6338209820D9E08D00C380A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63419FB220DEC9690089A759 /* MoviesListSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesListSectionController.swift; sourceTree = "<group>"; };
+		63419FB520DECBA80089A759 /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
+		63419FB820DECD050089A759 /* CellConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellConfiguration.swift; sourceTree = "<group>"; };
+		63419FBB20DECE230089A759 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+		63419FBD20DEF1B50089A759 /* PaddingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingLabel.swift; sourceTree = "<group>"; };
+		634584A320DDDE400024A296 /* BaseURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseURL.swift; sourceTree = "<group>"; };
+		637EED5A20DB3FC5009A8AA9 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		637EED5D20DB3FF5009A8AA9 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		637EED6020DB41AE009A8AA9 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		637EED6320DB4467009A8AA9 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		637EED6820DB453C009A8AA9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/localizable.strings; sourceTree = "<group>"; };
+		6383352520DDE5CF006CECB2 /* Genre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genre.swift; sourceTree = "<group>"; };
+		6383352820DDE676006CECB2 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		63879187213C99E500E0A145 /* NetworkingTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingTests.swift; sourceTree = "<group>"; };
+		63879188213C99E500E0A145 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63879194213CBDB600E0A145 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		63879195213CBDB600E0A145 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/localizable.strings"; sourceTree = "<group>"; };
+		638AA6D320DE86A4001165EE /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		63AAD08220DEAF3F00AB81C4 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		63AAD08420DEB03E00AB81C4 /* MoviesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesView.swift; sourceTree = "<group>"; };
+		74EFB656E04D2C186BEB7D10 /* Pods-Teste_TembiciTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teste_TembiciTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Teste_TembiciTests/Pods-Teste_TembiciTests.release.xcconfig"; sourceTree = "<group>"; };
+		8534F60DAE3B6850268A6121 /* Pods-Teste_Tembici.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teste_Tembici.release.xcconfig"; path = "Pods/Target Support Files/Pods-Teste_Tembici/Pods-Teste_Tembici.release.xcconfig"; sourceTree = "<group>"; };
+		9E3D61734635BAF6BB54DD7E /* Pods-Teste_TembiciTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teste_TembiciTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Teste_TembiciTests/Pods-Teste_TembiciTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C201FBBB74C1623FF8DBBCA5 /* Pods_ArcTouchCodeChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArcTouchCodeChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBF0560BD28FDC5814D66AF4 /* Pods-ArcTouchCodeChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcTouchCodeChallengeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArcTouchCodeChallengeTests/Pods-ArcTouchCodeChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CD212356A9565638A2F57DFA /* Pods-ArcTouch_Code_Challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcTouch_Code_Challenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArcTouch_Code_Challenge/Pods-ArcTouch_Code_Challenge.debug.xcconfig"; sourceTree = "<group>"; };
+		E4E89919E64E6BE2B6CDB162 /* Pods-Teste_Tembici.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teste_Tembici.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Teste_Tembici/Pods-Teste_Tembici.debug.xcconfig"; sourceTree = "<group>"; };
+		FCB7D0740B3C3B23A287E1F2 /* Pods-ArcTouchCodeChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcTouchCodeChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArcTouchCodeChallenge/Pods-ArcTouchCodeChallenge.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6338207020D9E08B00C380A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71DF7C9D3F4C89A9987DA458 /* Pods_ArcTouchCodeChallenge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6338208420D9E08D00C380A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				613D566A0F2DD858D59EF1A0 /* Pods_ArcTouchCodeChallengeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6338208F20D9E08D00C380A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0388C97894F34C160687A7A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4E89919E64E6BE2B6CDB162 /* Pods-Teste_Tembici.debug.xcconfig */,
+				8534F60DAE3B6850268A6121 /* Pods-Teste_Tembici.release.xcconfig */,
+				9E3D61734635BAF6BB54DD7E /* Pods-Teste_TembiciTests.debug.xcconfig */,
+				74EFB656E04D2C186BEB7D10 /* Pods-Teste_TembiciTests.release.xcconfig */,
+				CD212356A9565638A2F57DFA /* Pods-ArcTouch_Code_Challenge.debug.xcconfig */,
+				5069BD0CB032BBDF524F875E /* Pods-ArcTouch_Code_Challenge.release.xcconfig */,
+				21E6AB4F66368133555E73BD /* Pods-ArcTouch_Code_ChallengeTests.debug.xcconfig */,
+				543BE863E82A7A4378787A6B /* Pods-ArcTouch_Code_ChallengeTests.release.xcconfig */,
+				3C09B75D6BB2405AE42A55B6 /* Pods-ArcTouchCodeChallenge.debug.xcconfig */,
+				FCB7D0740B3C3B23A287E1F2 /* Pods-ArcTouchCodeChallenge.release.xcconfig */,
+				CBF0560BD28FDC5814D66AF4 /* Pods-ArcTouchCodeChallengeTests.debug.xcconfig */,
+				23450A9D72EBA2B78DBED19A /* Pods-ArcTouchCodeChallengeTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5F6135EA19698E3D540C040A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C201FBBB74C1623FF8DBBCA5 /* Pods_ArcTouchCodeChallenge.framework */,
+				364C9AA30F5EF21C8A044378 /* Pods_ArcTouchCodeChallengeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6338206A20D9E08B00C380A7 = {
+			isa = PBXGroup;
+			children = (
+				6338207520D9E08B00C380A7 /* ArcTouchCodeChallenge */,
+				63879186213C99E500E0A145 /* ArcTouchCodeChallengeTests */,
+				6338209520D9E08D00C380A7 /* ArcTouchCodeChallengeUITests */,
+				6338207420D9E08B00C380A7 /* Products */,
+				0388C97894F34C160687A7A7 /* Pods */,
+				5F6135EA19698E3D540C040A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6338207420D9E08B00C380A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6338207320D9E08B00C380A7 /* ArcTouchCodeChallenge.app */,
+				6338208720D9E08D00C380A7 /* ArcTouchCodeChallengeTests.xctest */,
+				6338209220D9E08D00C380A7 /* ArcTouchCodeChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6338207520D9E08B00C380A7 /* ArcTouchCodeChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				63419FBA20DECE110089A759 /* Components */,
+				63419FB720DECCEF0089A759 /* Protocols */,
+				6383352720DDE65B006CECB2 /* Networking */,
+				634584A220DDDE2B0024A296 /* Config */,
+				637EED5F20DB4193009A8AA9 /* Navigation */,
+				63BE14DA20D9F2BE00517716 /* Model */,
+				63BE14DD20D9F2E200517716 /* Resource */,
+				63BE14DC20D9F2D400517716 /* View */,
+				63BE14DB20D9F2CB00517716 /* ViewController */,
+				6338207620D9E08B00C380A7 /* AppDelegate.swift */,
+				6338208220D9E08D00C380A7 /* Info.plist */,
+			);
+			path = ArcTouchCodeChallenge;
+			sourceTree = "<group>";
+		};
+		6338209520D9E08D00C380A7 /* ArcTouchCodeChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6338209620D9E08D00C380A7 /* ArcTouchCodeChallengeUITests.swift */,
+				6338209820D9E08D00C380A7 /* Info.plist */,
+			);
+			path = ArcTouchCodeChallengeUITests;
+			sourceTree = "<group>";
+		};
+		63419FB120DEC94C0089A759 /* SectionContreoller */ = {
+			isa = PBXGroup;
+			children = (
+				63419FB220DEC9690089A759 /* MoviesListSectionController.swift */,
+			);
+			path = SectionContreoller;
+			sourceTree = "<group>";
+		};
+		63419FB420DECB880089A759 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				63419FB520DECBA80089A759 /* MovieCollectionViewCell.swift */,
+				6318F7E920DFBFB7000B6D41 /* FavoriteTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		63419FB720DECCEF0089A759 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				63419FB820DECD050089A759 /* CellConfiguration.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		63419FBA20DECE110089A759 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				63419FBB20DECE230089A759 /* FavoriteButton.swift */,
+				63419FBD20DEF1B50089A759 /* PaddingLabel.swift */,
+				6318F7EB20E0280D000B6D41 /* EmptyDataView.swift */,
+				6318F7ED20E02819000B6D41 /* ErrorDataView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		634584A220DDDE2B0024A296 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				6319616D20DDEAFF001299A4 /* Constants.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		637EED5920DB3FA0009A8AA9 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				637EED5A20DB3FC5009A8AA9 /* BaseView.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		637EED5C20DB3FE5009A8AA9 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				637EED5D20DB3FF5009A8AA9 /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		637EED5F20DB4193009A8AA9 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				637EED6020DB41AE009A8AA9 /* TabBarController.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		6383352720DDE65B006CECB2 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				634584A320DDDE400024A296 /* BaseURL.swift */,
+				6383352820DDE676006CECB2 /* APIClient.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		63879186213C99E500E0A145 /* ArcTouchCodeChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				63879187213C99E500E0A145 /* NetworkingTests.swift */,
+				63879188213C99E500E0A145 /* Info.plist */,
+			);
+			path = ArcTouchCodeChallengeTests;
+			sourceTree = "<group>";
+		};
+		63BE14DA20D9F2BE00517716 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6383352520DDE5CF006CECB2 /* Genre.swift */,
+				638AA6D320DE86A4001165EE /* Movie.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		63BE14DB20D9F2CB00517716 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				63419FB120DEC94C0089A759 /* SectionContreoller */,
+				637EED5C20DB3FE5009A8AA9 /* Base */,
+				63AAD08220DEAF3F00AB81C4 /* MoviesViewController.swift */,
+				63200D5920DF870400A3E510 /* MovieDetailViewController.swift */,
+				6318F7E720DFBCDB000B6D41 /* FavoritesViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		63BE14DC20D9F2D400517716 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				63419FB420DECB880089A759 /* Cell */,
+				637EED5920DB3FA0009A8AA9 /* Base */,
+				63AAD08420DEB03E00AB81C4 /* MoviesView.swift */,
+				63200D5B20DF872500A3E510 /* MovieDetailView.swift */,
+				6318F7E520DFBC1B000B6D41 /* FavoritesView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		63BE14DD20D9F2E200517716 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				637EED6320DB4467009A8AA9 /* R.generated.swift */,
+				6338207D20D9E08D00C380A7 /* Assets.xcassets */,
+				6338207F20D9E08D00C380A7 /* LaunchScreen.storyboard */,
+				637EED6920DB453C009A8AA9 /* localizable.strings */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6338207220D9E08B00C380A7 /* ArcTouchCodeChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6338209B20D9E08D00C380A7 /* Build configuration list for PBXNativeTarget "ArcTouchCodeChallenge" */;
+			buildPhases = (
+				A3E5565A63010CA7C7C287A0 /* [CP] Check Pods Manifest.lock */,
+				637EED6220DB42D3009A8AA9 /* ShellScript */,
+				6338206F20D9E08B00C380A7 /* Sources */,
+				6338207020D9E08B00C380A7 /* Frameworks */,
+				6338207120D9E08B00C380A7 /* Resources */,
+				F3A2DFDD947E99AB01063EBA /* [CP] Embed Pods Frameworks */,
+				63AAD08120DE9EB100AB81C4 /* ShellScript */,
+				63879185213C97C500E0A145 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArcTouchCodeChallenge;
+			productName = Teste_Tembici;
+			productReference = 6338207320D9E08B00C380A7 /* ArcTouchCodeChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6338208620D9E08D00C380A7 /* ArcTouchCodeChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6338209E20D9E08D00C380A7 /* Build configuration list for PBXNativeTarget "ArcTouchCodeChallengeTests" */;
+			buildPhases = (
+				62E7222262AC46E5AFB43266 /* [CP] Check Pods Manifest.lock */,
+				6338208320D9E08D00C380A7 /* Sources */,
+				6338208420D9E08D00C380A7 /* Frameworks */,
+				6338208520D9E08D00C380A7 /* Resources */,
+				A7BEADFF8529377C32799F68 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6338208920D9E08D00C380A7 /* PBXTargetDependency */,
+			);
+			name = ArcTouchCodeChallengeTests;
+			productName = Teste_TembiciTests;
+			productReference = 6338208720D9E08D00C380A7 /* ArcTouchCodeChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6338209120D9E08D00C380A7 /* ArcTouchCodeChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 633820A120D9E08D00C380A7 /* Build configuration list for PBXNativeTarget "ArcTouchCodeChallengeUITests" */;
+			buildPhases = (
+				6338208E20D9E08D00C380A7 /* Sources */,
+				6338208F20D9E08D00C380A7 /* Frameworks */,
+				6338209020D9E08D00C380A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6338209420D9E08D00C380A7 /* PBXTargetDependency */,
+			);
+			name = ArcTouchCodeChallengeUITests;
+			productName = Teste_TembiciUITests;
+			productReference = 6338209220D9E08D00C380A7 /* ArcTouchCodeChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6338206B20D9E08B00C380A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Marcelo_Hammes;
+				TargetAttributes = {
+					6338207220D9E08B00C380A7 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					6338208620D9E08D00C380A7 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 6338207220D9E08B00C380A7;
+					};
+					6338209120D9E08D00C380A7 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 6338207220D9E08B00C380A7;
+					};
+				};
+			};
+			buildConfigurationList = 6338206E20D9E08B00C380A7 /* Build configuration list for PBXProject "ArcTouchCodeChallenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"pt-BR",
+			);
+			mainGroup = 6338206A20D9E08B00C380A7;
+			productRefGroup = 6338207420D9E08B00C380A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6338207220D9E08B00C380A7 /* ArcTouchCodeChallenge */,
+				6338208620D9E08D00C380A7 /* ArcTouchCodeChallengeTests */,
+				6338209120D9E08D00C380A7 /* ArcTouchCodeChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6338207120D9E08B00C380A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				637EED6720DB453C009A8AA9 /* localizable.strings in Resources */,
+				6338208120D9E08D00C380A7 /* LaunchScreen.storyboard in Resources */,
+				6338207E20D9E08D00C380A7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6338208520D9E08D00C380A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6319618A20DDF1B5001299A4 /* LaunchScreen.storyboard in Resources */,
+				6319618520DDF1A8001299A4 /* Assets.xcassets in Resources */,
+				6319618920DDF1AC001299A4 /* localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6338209020D9E08D00C380A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		62E7222262AC46E5AFB43266 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArcTouchCodeChallengeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		637EED6220DB42D3009A8AA9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT\" ";
+		};
+		63879185213C97C500E0A145 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"";
+		};
+		63AAD08120DE9EB100AB81C4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 64b583a4adb1673507152ff9c511ee9bf8dfc386 1c830720c9c12122f07f78ad6770431b1cff9c591079429cf74fc73393528ba9 ";
+		};
+		A3E5565A63010CA7C7C287A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArcTouchCodeChallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7BEADFF8529377C32799F68 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ArcTouchCodeChallengeTests/Pods-ArcTouchCodeChallengeTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Cosmos/Cosmos.framework",
+				"${BUILT_PRODUCTS_DIR}/IGListKit/IGListKit.framework",
+				"${BUILT_PRODUCTS_DIR}/JGProgressHUD/JGProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Reusable/Reusable.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cosmos.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IGListKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JGProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reusable.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArcTouchCodeChallengeTests/Pods-ArcTouchCodeChallengeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3A2DFDD947E99AB01063EBA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ArcTouchCodeChallenge/Pods-ArcTouchCodeChallenge-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Cosmos/Cosmos.framework",
+				"${BUILT_PRODUCTS_DIR}/IGListKit/IGListKit.framework",
+				"${BUILT_PRODUCTS_DIR}/JGProgressHUD/JGProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Reusable/Reusable.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cosmos.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IGListKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JGProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reusable.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArcTouchCodeChallenge/Pods-ArcTouchCodeChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6338206F20D9E08B00C380A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6318F7E620DFBC1B000B6D41 /* FavoritesView.swift in Sources */,
+				63AAD08320DEAF3F00AB81C4 /* MoviesViewController.swift in Sources */,
+				63AAD08520DEB03E00AB81C4 /* MoviesView.swift in Sources */,
+				6338207720D9E08B00C380A7 /* AppDelegate.swift in Sources */,
+				63419FBC20DECE230089A759 /* FavoriteButton.swift in Sources */,
+				637EED6120DB41AE009A8AA9 /* TabBarController.swift in Sources */,
+				63200D5C20DF872500A3E510 /* MovieDetailView.swift in Sources */,
+				63419FBE20DEF1B50089A759 /* PaddingLabel.swift in Sources */,
+				637EED6420DB4467009A8AA9 /* R.generated.swift in Sources */,
+				6383352920DDE676006CECB2 /* APIClient.swift in Sources */,
+				638AA6D420DE86A4001165EE /* Movie.swift in Sources */,
+				637EED5B20DB3FC5009A8AA9 /* BaseView.swift in Sources */,
+				63419FB920DECD050089A759 /* CellConfiguration.swift in Sources */,
+				6318F7EE20E02819000B6D41 /* ErrorDataView.swift in Sources */,
+				63419FB320DEC9690089A759 /* MoviesListSectionController.swift in Sources */,
+				637EED5E20DB3FF5009A8AA9 /* BaseViewController.swift in Sources */,
+				634584A420DDDE400024A296 /* BaseURL.swift in Sources */,
+				6318F7E820DFBCDB000B6D41 /* FavoritesViewController.swift in Sources */,
+				63200D5A20DF870400A3E510 /* MovieDetailViewController.swift in Sources */,
+				6383352620DDE5CF006CECB2 /* Genre.swift in Sources */,
+				6318F7EC20E0280D000B6D41 /* EmptyDataView.swift in Sources */,
+				6319616E20DDEAFF001299A4 /* Constants.swift in Sources */,
+				63419FB620DECBA80089A759 /* MovieCollectionViewCell.swift in Sources */,
+				6318F7EA20DFBFB7000B6D41 /* FavoriteTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6338208320D9E08D00C380A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6387918B213C9BA600E0A145 /* NetworkingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6338208E20D9E08D00C380A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6338209720D9E08D00C380A7 /* ArcTouchCodeChallengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6338208920D9E08D00C380A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6338207220D9E08B00C380A7 /* ArcTouchCodeChallenge */;
+			targetProxy = 6338208820D9E08D00C380A7 /* PBXContainerItemProxy */;
+		};
+		6338209420D9E08D00C380A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6338207220D9E08B00C380A7 /* ArcTouchCodeChallenge */;
+			targetProxy = 6338209320D9E08D00C380A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6338207F20D9E08D00C380A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6338208020D9E08D00C380A7 /* Base */,
+				63879194213CBDB600E0A145 /* pt-BR */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		637EED6920DB453C009A8AA9 /* localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				637EED6820DB453C009A8AA9 /* en */,
+				63879195213CBDB600E0A145 /* pt-BR */,
+			);
+			name = localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6338209920D9E08D00C380A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6338209A20D9E08D00C380A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6338209C20D9E08D00C380A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C09B75D6BB2405AE42A55B6 /* Pods-ArcTouchCodeChallenge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YUM8X49DLP;
+				INFOPLIST_FILE = "$(SRCROOT)/ArcTouchCodeChallenge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "marcelo-hammes.ArcTouchCodeChallenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6338209D20D9E08D00C380A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCB7D0740B3C3B23A287E1F2 /* Pods-ArcTouchCodeChallenge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YUM8X49DLP;
+				INFOPLIST_FILE = "$(SRCROOT)/ArcTouchCodeChallenge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "marcelo-hammes.ArcTouchCodeChallenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6338209F20D9E08D00C380A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBF0560BD28FDC5814D66AF4 /* Pods-ArcTouchCodeChallengeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YUM8X49DLP;
+				INFOPLIST_FILE = ArcTouchCodeChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "marcelo-hammes.ArcTouchCodeChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArcTouchCodeChallenge.app/ArcTouchCodeChallenge";
+			};
+			name = Debug;
+		};
+		633820A020D9E08D00C380A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23450A9D72EBA2B78DBED19A /* Pods-ArcTouchCodeChallengeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YUM8X49DLP;
+				INFOPLIST_FILE = ArcTouchCodeChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "marcelo-hammes.ArcTouchCodeChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArcTouchCodeChallenge.app/ArcTouchCodeChallenge";
+			};
+			name = Release;
+		};
+		633820A220D9E08D00C380A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YUM8X49DLP;
+				INFOPLIST_FILE = ArcTouchCodeChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "marcelo-hammes.ArcTouchCodeChallengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ArcTouchCodeChallenge;
+			};
+			name = Debug;
+		};
+		633820A320D9E08D00C380A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YUM8X49DLP;
+				INFOPLIST_FILE = ArcTouchCodeChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "marcelo-hammes.ArcTouchCodeChallengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ArcTouchCodeChallenge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6338206E20D9E08B00C380A7 /* Build configuration list for PBXProject "ArcTouchCodeChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6338209920D9E08D00C380A7 /* Debug */,
+				6338209A20D9E08D00C380A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6338209B20D9E08D00C380A7 /* Build configuration list for PBXNativeTarget "ArcTouchCodeChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6338209C20D9E08D00C380A7 /* Debug */,
+				6338209D20D9E08D00C380A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6338209E20D9E08D00C380A7 /* Build configuration list for PBXNativeTarget "ArcTouchCodeChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6338209F20D9E08D00C380A7 /* Debug */,
+				633820A020D9E08D00C380A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		633820A120D9E08D00C380A7 /* Build configuration list for PBXNativeTarget "ArcTouchCodeChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				633820A220D9E08D00C380A7 /* Debug */,
+				633820A320D9E08D00C380A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6338206B20D9E08B00C380A7 /* Project object */;
+}
