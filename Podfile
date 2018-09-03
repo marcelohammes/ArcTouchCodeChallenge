@@ -17,7 +17,6 @@ def default_pods
     pod 'R.swift'
     
     # Components
-    #pod 'CCAutocomplete', :git => 'https://github.com/cjcoax/Autocomplete.git', :branch => 'master', submodules: true
     pod 'JGProgressHUD'
     pod 'Toast-Swift', '~> 3.0.1'
     pod 'IGListKit', '~> 3.0'
